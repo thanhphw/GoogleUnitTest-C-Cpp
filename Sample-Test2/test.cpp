@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "test.h"
 #include "Source1.h"
 
 extern "C"
@@ -6,13 +6,13 @@ extern "C"
 #include "Source2.h"
 }
 
-TEST(TestCaseName, TestName) 
+TEST_F(TestSource, TestSource_1)
 {
 	EXPECT_EQ(1, 1);
 	EXPECT_TRUE(true);
 }
 
-TEST(Source1_cpp_test, Source1_cpp_test_retFive_case1) 
+TEST_F(TestSource, TestSource_retFive_case1) 
 {
 	{
 		int retVal = retFive();
@@ -20,7 +20,7 @@ TEST(Source1_cpp_test, Source1_cpp_test_retFive_case1)
 	}
 }
 
-TEST(Source1_cpp_test, Source1_cpp_test_retFive_case2)
+TEST_F(TestSource, TestSource_retFive_case2)
 {
 	{
 		int retVal = retFive();
@@ -28,7 +28,7 @@ TEST(Source1_cpp_test, Source1_cpp_test_retFive_case2)
 	}
 }
 
-TEST(Source1_cpp_test, Source1_cpp_test_retBool_case1)
+TEST_F(TestSource, TestSource_retBool_case1)
 {
 	{
 		int retVal = retBool(true);
@@ -37,7 +37,7 @@ TEST(Source1_cpp_test, Source1_cpp_test_retBool_case1)
 }
 
 
-TEST(Source1_cpp_test, Source1_cpp_test_retBool_case2)
+TEST_F(TestSource, TestSource_retBool_case2)
 {
 	{
 		int retVal = retBool(false);
@@ -45,7 +45,7 @@ TEST(Source1_cpp_test, Source1_cpp_test_retBool_case2)
 	}
 }
 
-TEST(Source2_cpp_test, Source2_cpp_test_retSeven_case1)
+TEST_F(TestSource, TestSource_retSeven_case1)
 {
 	{
 		int retVal = retSeven();
@@ -53,7 +53,7 @@ TEST(Source2_cpp_test, Source2_cpp_test_retSeven_case1)
 	}
 }
 
-TEST(Source2_cpp_test, Source2_cpp_test_retBoolC_case1)
+TEST_F(TestSource, TestSource_retBoolC_case1)
 {
 	{
 		int retVal = retBoolC(true);
@@ -62,7 +62,7 @@ TEST(Source2_cpp_test, Source2_cpp_test_retBoolC_case1)
 }
 
 
-TEST(Source2_cpp_test, Source2_cpp_test_retBoolC_case2)
+TEST_F(TestSource, TestSource_retBoolC_case2)
 {
 	{
 		int retVal = retBoolC(false);
@@ -70,7 +70,7 @@ TEST(Source2_cpp_test, Source2_cpp_test_retBoolC_case2)
 	}
 }
 
-TEST(Source2_cpp_test, Source2_cpp_test_getsVal_case1)
+TEST_F(TestSource, TestSource_getsVal_case1)
 {
 	{
 		int retVal = getsVal();

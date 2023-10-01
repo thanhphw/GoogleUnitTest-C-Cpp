@@ -13,6 +13,7 @@
     <ClCompile Include="Source2.c">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source1.h">
@@ -23,6 +24,9 @@
     </ClInclude>
     <ClInclude Include="Source2.h">
       <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Unit test</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
