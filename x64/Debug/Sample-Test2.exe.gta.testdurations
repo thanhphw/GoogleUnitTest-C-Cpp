@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\84879\source\repos\Project4\x64\Debug\Sample-Test2.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="TestCaseName.TestName1" Duration="1" />
+    <TestDuration Test="TestCaseName.Hihi" Duration="1" />
+    <TestDuration Test="Source1_cpp_test.Source1_cpp_test_retFive_case1" Duration="1" />
+    <TestDuration Test="Source1_cpp_test.Source1_cpp_test_retFive_case2" Duration="1" />
+    <TestDuration Test="Source1_cpp_test.Source1_cpp_test_retBool_case1" Duration="1" />
+    <TestDuration Test="Source1_cpp_test.Source1_cpp_test_retBool_case2" Duration="1" />
+    <TestDuration Test="Source2_cpp_test.Source2_cpp_test_retSeven_case1" Duration="1" />
+    <TestDuration Test="Source2_cpp_test.Source2_cpp_test_retBoolC_case1" Duration="1" />
+    <TestDuration Test="Source2_cpp_test.Source2_cpp_test_retBoolC_case2" Duration="1" />
+    <TestDuration Test="Source2_cpp_test.Source2_cpp_test_getsVal_case1" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source1.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Unit test</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Source2.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source1.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Source2.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{6940f107-6f5b-4dc4-8cc2-e0a149fe8545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c07f217b-1633-4074-a788-5341b7102f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit test">
+      <UniqueIdentifier>{3e7ec111-5a95-4c31-a138-0eaf2bc81482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{c28a8842-3b51-41a7-b489-3370b3b8dc82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <Filter>Config</Filter>
+    </None>
+  </ItemGroup>
+</Project>
